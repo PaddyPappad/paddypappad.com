@@ -169,7 +169,7 @@
 
     .home{
         display: flex;
-        background: url(/image/home-img1.png) no-repeat;
+        background: url(/paddy_paddad/image/home-img1.png) no-repeat;
         background-attachment: fixed;
         background-repeat: no-repeat;  
         background-size: cover;
@@ -742,7 +742,7 @@
 
     .footer{
         align-items: center;
-        background: url(/image/foot.png) no-repeat;
+        background: url(/paddy_paddad/image/foot.png) no-repeat;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;  
@@ -1018,14 +1018,14 @@
             font-size: 3rem;
         }
         .home{
-            background: url(/image/home1.png) no-repeat;
+            background: url(/paddy_paddad/image/home1.png) no-repeat;
             background-attachment: fixed;
             background-repeat: no-repeat;  
             background-size: cover;
         }
         .footer{
             align-items: center;
-            background: url(/image/foot1.png) no-repeat;
+            background: url(/paddy_paddad/image/foot1.png) no-repeat;
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;  
