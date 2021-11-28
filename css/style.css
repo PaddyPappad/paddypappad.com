@@ -9,6 +9,7 @@
         --outline:.1rem solid rgba(0,0,0,.1);
         --outline-hover:.2rem solid var(--black);
     }
+    #more {display: none;}
 
     *{
         font-family: 'Poppins', sans-serif;
@@ -57,6 +58,21 @@
         display: inline-block;}
     .header .logo img{
         height: 8rem;
+    }
+    .rbtn {
+        margin-bottom: 1rem;
+        display: inline-block;
+        padding:.4rem 1.5rem;
+        font-size: 1.5rem;
+        border-radius: .5rem;
+        border:.15rem solid var(--black);
+        color:var(--black);
+        cursor: pointer;
+        background: none;
+    }
+    .rbtn:hover{
+        background: var(--green);
+        color:#fff;
     }
     .btn{
         margin-top: 1rem;

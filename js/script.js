@@ -32,13 +32,13 @@ window.onscroll = () =>{
 }
 
 var swiper = new Swiper(".product-slider", {
-    loop:true,
+    // loop:true,
     spaceBetween: 20,
     autoplay: {
         delay: 2500,
         disableOnInteraction: false,
     },
-    centeredSlides: true,
+    // centeredSlides: true,
     breakpoints: {
       0: {
         slidesPerView: 1,
@@ -53,13 +53,13 @@ var swiper = new Swiper(".product-slider", {
 });
 
 var swiper = new Swiper(".feature-slider", {
-    loop:true,
+    // loop:true,
     spaceBetween: 20,
     autoplay: {
         delay: 2000,
         disableOnInteraction: false,
     },
-    centeredSlides: true,
+    // centeredSlides: true,
     breakpoints: {
       0: {
         slidesPerView: 1,
@@ -76,13 +76,13 @@ var swiper = new Swiper(".feature-slider", {
 
 
 var swiper = new Swiper(".review-slider", {
-    loop:true,
+  // loop:true,
     spaceBetween: 20,
     autoplay: {
         delay: 7500,
         disableOnInteraction: false,
     },
-    centeredSlides: true,
+    // centeredSlides: true,
     breakpoints: {
       0: {
         slidesPerView: 1,
@@ -95,3 +95,19 @@ var swiper = new Swiper(".review-slider", {
       },
     },
 });
+
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
